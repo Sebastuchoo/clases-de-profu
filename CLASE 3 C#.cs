@@ -37,7 +37,11 @@ namespace POO_Unidad1
             miAuto.Anio = 2026;
             miAuto.VelocidadActual = 25;
             miAuto.MostrarInformacion();
+            miAuto.Acelerar(100);
+            miAuto.Frenar(5);
+            miAuto.MostrarInformacion();
 
         }
     }
 }
+
