@@ -73,7 +73,7 @@ namespace Colombia.Ingenieria.Unidad2.Ejercicio1
             Console.WriteLine($"====FACTURA ELECTRONICA DE VENTA DIAN : {NumeroFactura} =====");
             Console.WriteLine($"NIT EMISOR      : {NITEmisor} ");
             Console.WriteLine($"NIT ADQUIRIENTE : {NITAdquirience} ");
-            Console.WriteLine($"CUFE            : {GenerarCUFE} ");
+            Console.WriteLine($"CUFE            : {GenerarCUFE()} ");
             Console.WriteLine($"SUBTOTAL        : {sub,14:N2} COP ");
             Console.WriteLine($"IVA (19%)       : {iva,14:N2} COP ");
             Console.WriteLine($"RETEFUENTE 2.5% : {retefuente,13:N2} COP ");
